@@ -21,6 +21,11 @@ class FruitAdapter(private val context: Context,
         rowView.tvTitle.text = dataSource[position].fruitName
         rowView.tvSubtitle.text = dataSource[position].caption
 
+        val res = context.resources
+        val drawableId:Int =
+            res.getIdentifier(dataSource[position].imageFile,"drawable",context.packageName)
+
+        rowView.imgThumbnail.setImageResource(drawableId)
 
 
         return rowView

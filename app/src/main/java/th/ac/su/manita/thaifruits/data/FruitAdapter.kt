@@ -18,7 +18,10 @@ class FruitAdapter(private val context: Context,
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val rowView = inflater.inflate(R.layout.list_item_fruit,null)
 
-        rowView.tvTitle.text = "Hello"
+        rowView.tvTitle.text = dataSource[position].fruitName
+        rowView.tvSubtitle.text = dataSource[position].caption
+
+
 
         return rowView
     }

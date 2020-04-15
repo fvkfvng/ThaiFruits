@@ -1,5 +1,6 @@
 package th.ac.su.manita.thaifruits
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -33,9 +34,9 @@ class MainActivity : AppCompatActivity() {
 //        Log.i("data",fruitList[0].fruitName)
 
         itemList = fruitList
-        val adapter = FruitAdapter(this@MainActivity,itemList)
-
+        val adapter = FruitAdapter(this@MainActivity, itemList)
         listView.adapter = adapter
+
 
     }
 }

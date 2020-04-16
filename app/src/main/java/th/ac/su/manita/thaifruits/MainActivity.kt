@@ -37,6 +37,16 @@ class MainActivity : AppCompatActivity() {
         val adapter = FruitAdapter(this@MainActivity, itemList)
         listView.adapter = adapter
 
+        listView.setOnItemClickListener { _, _, position, _ ->
 
+            var intent = Intent(this@MainActivity,DetailActivity::class.java)
+
+            intent.putExtra("title",itemList[position].fruitName)
+            intent.putExtra("caption",itemList[position].caption)
+            intent.putExtra("imageFile",itemList[position].imageFile)
+
+            startActivity(intent)
+
+        }
     }
 }

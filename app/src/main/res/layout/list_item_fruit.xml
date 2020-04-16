@@ -3,7 +3,7 @@
                 xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-                android:background="#424242">
+                android:background="#e6e4c5">
 
     <ImageView
         android:id="@+id/imgThumbnail"
@@ -23,7 +23,7 @@
             android:layout_marginRight="8dp"
             android:paddingTop="20dp"
             android:textStyle="bold"
-            android:textColor="#fff"
+            android:textColor="#72704b"
             android:layout_toRightOf="@id/imgThumbnail"
             android:textSize="18dp"
             android:text="Title"/>
@@ -37,7 +37,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginTop="2dp"
             android:layout_marginRight="8dp"
-            android:textColor="#fff"
+            android:textColor="#999773"
             android:layout_toRightOf="@id/imgThumbnail"
             android:ellipsize="end"
             android:maxLines="3"

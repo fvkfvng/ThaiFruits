@@ -44,6 +44,8 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("title",itemList[position].fruitName)
             intent.putExtra("caption",itemList[position].caption)
             intent.putExtra("imageFile",itemList[position].imageFile)
+            intent.putExtra("imageDetail",itemList[position].imageDetail)
+            intent.putExtra("description",itemList[position].description)
 
             startActivity(intent)
 

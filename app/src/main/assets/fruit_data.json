@@ -1,5 +1,6 @@
 [
   {
+    "imageDetail": "imgshow1",
     "imageFile": "fruit1",
     "fruitName": "ทุเรียน",
     "caption": "ราชาแห่งผลไม้",
@@ -7,6 +8,7 @@
   },
 
   {
+    "imageDetail": "imgshow2",
     "imageFile": "fruit2",
     "fruitName": "ฝรั่งสีชมพู",
     "caption": "ไม่เป็นที่นิยมแต่มีประโยชน์",
@@ -14,6 +16,7 @@
   },
 
   {
+    "imageDetail": "imgshow3",
     "imageFile": "fruit3",
     "fruitName": "มะละกอ",
     "caption": "ดิบก็กินได้ สุกก็กินดี",
@@ -21,6 +24,7 @@
   },
 
   {
+    "imageDetail": "imgshow4",
     "imageFile": "fruit4",
     "fruitName": "ลิ้นจี่",
     "caption": "ผลไม้เศรษฐกิจ",
@@ -28,6 +32,7 @@
   },
 
   {
+    "imageDetail": "imgshow5",
     "imageFile": "fruit5",
     "fruitName": "มะม่วง",
     "caption": "เปรี้ยว มัน หวาน",
@@ -35,6 +40,7 @@
   },
 
   {
+    "imageDetail": "imgshow6",
     "imageFile": "fruit6",
     "fruitName": "ส้มเขียวหวาน",
     "caption": "ราชินีวิตามิน",
@@ -42,6 +48,7 @@
   },
 
   {
+    "imageDetail": "imgshow7",
     "imageFile": "fruit7",
     "fruitName": "สับปะรด",
     "caption": "มีตารอบตัว",
@@ -49,6 +56,7 @@
   },
 
   {
+    "imageDetail": "imgshow8",
     "imageFile": "fruit8",
     "fruitName": "ทับทิม",
     "caption": "ราชินีแห่งผลไม้",
@@ -56,6 +64,7 @@
   },
 
   {
+    "imageDetail": "imgshow9",
     "imageFile": "fruit9",
     "fruitName": "เงาะ",
     "caption": "ภายนอกอัปลักษณ์ ภายในหวานหอม",
@@ -63,6 +72,7 @@
   },
 
   {
+    "imageDetail": "imgshow10",
     "imageFile": "fruit10",
     "fruitName": "มะเฟือง",
     "caption": "หั่นขวางแล้วเป็นรูปดาว",
@@ -70,6 +80,7 @@
   },
 
   {
+    "imageDetail": "imgshow11",
     "imageFile": "fruit11",
     "fruitName": "มะขาม",
     "caption": "นิยมนำมาขัดผิว",
@@ -77,6 +88,7 @@
   },
 
   {
+    "imageDetail": "imgshow12",
     "imageFile": "fruit12",
     "fruitName": "มะพร้าว",
     "caption": "มาคู่กับชาวเกาะ",

@@ -1,40 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="#424242"
-        tools:context=".DetailActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#e6e4c5">
 
 
-    <TextView
-            android:id="@+id/tvTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textSize="36sp"
-            android:layout_marginTop="16dp"
-            android:layout_marginLeft="16dp"
-            tools:text="Mingle"/>
-
-    <TextView
-            android:id="@+id/tvCaption"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            tools:text="caption"/>
-
-
-    <ImageView
-            android:id="@+id/imgView"
+    <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:layout_margin="16dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/imgshow1"/>
+            android:layout_height="wrap_content"
+            android:background="#e6e4c5">
 
+        <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitCenter"
+                android:paddingTop="30dp"
+                android:src="@drawable/imgshow1"/>
+
+        <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FruitName"
+                android:textSize="30sp"
+                android:textColor="#72704b"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="300dp"/>
+        <TextView
+                android:id="@+id/tvCaption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="caption"
+                android:textSize="16dp"
+                android:textColor="#999773"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="340dp"/>
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/tvDetail"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="24dp"
+            android:text="Detail"
+            android:textSize="18dp"
+            android:textColor="#999773"/>
 
 </LinearLayout>

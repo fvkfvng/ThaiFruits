@@ -3,13 +3,12 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#e6e4c5">
+              android:background="@drawable/gradient_background">
 
 
     <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#e6e4c5">
+            android:layout_height="wrap_content">
 
         <ImageView
                 android:id="@+id/imgView"
@@ -25,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:text="FruitName"
                 android:textSize="30sp"
-                android:textColor="#72704b"
+                android:textColor="#c9a300"
                 android:layout_marginLeft="20dp"
                 android:textStyle="bold"
                 android:layout_marginTop="300dp"/>
@@ -35,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:text="caption"
                 android:textSize="16dp"
-                android:textColor="#999773"
+                android:textColor="#c9a300"
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="340dp"/>
     </RelativeLayout>
@@ -47,6 +46,6 @@
             android:layout_margin="24dp"
             android:text="Detail"
             android:textSize="18dp"
-            android:textColor="#999773"/>
+            android:textColor="#90803d"/>
 
 </LinearLayout>
